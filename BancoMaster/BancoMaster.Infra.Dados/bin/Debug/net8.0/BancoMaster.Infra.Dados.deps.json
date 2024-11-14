@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "BancoMaster.Infra.Dados/1.0.0": {
+        "dependencies": {
+          "BancoMaster.Dominio": "1.0.0"
+        },
+        "runtime": {
+          "BancoMaster.Infra.Dados.dll": {}
+        }
+      },
+      "BancoMaster.Dominio/1.0.0": {
+        "runtime": {
+          "BancoMaster.Dominio.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BancoMaster.Infra.Dados/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BancoMaster.Dominio/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

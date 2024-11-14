@@ -1,0 +1,298 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\BancoMaster\\BancoMaster\\BancoMaster.Infra.IOC\\BancoMaster.Infra.IOC.csproj": {}
+  },
+  "projects": {
+    "E:\\BancoMaster\\BancoMaster\\BancoMaster.Aplicacao\\BancoMaster.Aplicacao.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\BancoMaster\\BancoMaster\\BancoMaster.Aplicacao\\BancoMaster.Aplicacao.csproj",
+        "projectName": "BancoMaster.Aplicacao",
+        "projectPath": "E:\\BancoMaster\\BancoMaster\\BancoMaster.Aplicacao\\BancoMaster.Aplicacao.csproj",
+        "packagesPath": "C:\\Users\\glaub\\.nuget\\packages\\",
+        "outputPath": "E:\\BancoMaster\\BancoMaster\\BancoMaster.Aplicacao\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\glaub\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "E:\\BancoMaster\\BancoMaster\\BancoMaster.Dominio\\BancoMaster.Dominio.csproj": {
+                "projectPath": "E:\\BancoMaster\\BancoMaster\\BancoMaster.Dominio\\BancoMaster.Dominio.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Nlog": {
+              "target": "Package",
+              "version": "[5.3.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\BancoMaster\\BancoMaster\\BancoMaster.Dominio\\BancoMaster.Dominio.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\BancoMaster\\BancoMaster\\BancoMaster.Dominio\\BancoMaster.Dominio.csproj",
+        "projectName": "BancoMaster.Dominio",
+        "projectPath": "E:\\BancoMaster\\BancoMaster\\BancoMaster.Dominio\\BancoMaster.Dominio.csproj",
+        "packagesPath": "C:\\Users\\glaub\\.nuget\\packages\\",
+        "outputPath": "E:\\BancoMaster\\BancoMaster\\BancoMaster.Dominio\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\glaub\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\BancoMaster\\BancoMaster\\BancoMaster.Infra.Dados\\BancoMaster.Infra.Dados.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\BancoMaster\\BancoMaster\\BancoMaster.Infra.Dados\\BancoMaster.Infra.Dados.csproj",
+        "projectName": "BancoMaster.Infra.Dados",
+        "projectPath": "E:\\BancoMaster\\BancoMaster\\BancoMaster.Infra.Dados\\BancoMaster.Infra.Dados.csproj",
+        "packagesPath": "C:\\Users\\glaub\\.nuget\\packages\\",
+        "outputPath": "E:\\BancoMaster\\BancoMaster\\BancoMaster.Infra.Dados\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\glaub\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "E:\\BancoMaster\\BancoMaster\\BancoMaster.Dominio\\BancoMaster.Dominio.csproj": {
+                "projectPath": "E:\\BancoMaster\\BancoMaster\\BancoMaster.Dominio\\BancoMaster.Dominio.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\BancoMaster\\BancoMaster\\BancoMaster.Infra.IOC\\BancoMaster.Infra.IOC.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\BancoMaster\\BancoMaster\\BancoMaster.Infra.IOC\\BancoMaster.Infra.IOC.csproj",
+        "projectName": "BancoMaster.Infra.IOC",
+        "projectPath": "E:\\BancoMaster\\BancoMaster\\BancoMaster.Infra.IOC\\BancoMaster.Infra.IOC.csproj",
+        "packagesPath": "C:\\Users\\glaub\\.nuget\\packages\\",
+        "outputPath": "E:\\BancoMaster\\BancoMaster\\BancoMaster.Infra.IOC\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\glaub\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "E:\\BancoMaster\\BancoMaster\\BancoMaster.Aplicacao\\BancoMaster.Aplicacao.csproj": {
+                "projectPath": "E:\\BancoMaster\\BancoMaster\\BancoMaster.Aplicacao\\BancoMaster.Aplicacao.csproj"
+              },
+              "E:\\BancoMaster\\BancoMaster\\BancoMaster.Dominio\\BancoMaster.Dominio.csproj": {
+                "projectPath": "E:\\BancoMaster\\BancoMaster\\BancoMaster.Dominio\\BancoMaster.Dominio.csproj"
+              },
+              "E:\\BancoMaster\\BancoMaster\\BancoMaster.Infra.Dados\\BancoMaster.Infra.Dados.csproj": {
+                "projectPath": "E:\\BancoMaster\\BancoMaster\\BancoMaster.Infra.Dados\\BancoMaster.Infra.Dados.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

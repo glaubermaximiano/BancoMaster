@@ -1,0 +1,79 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34916.146
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - ServicosDistribuidos", "1 - ServicosDistribuidos", "{79574D81-92CE-4BE9-9B1E-3129F8CB5C12}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Aplicacao", "2 - Aplicacao", "{32DDEEC2-640F-4DA7-90AB-28FF35808440}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Dominio", "3 - Dominio", "{2EF5A2DE-1F1B-4A0A-9A5D-1D6055332F2E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BancoMaster.Dominio", "BancoMaster.Dominio\BancoMaster.Dominio.csproj", "{6A2F1B58-563C-4AF9-91CE-1D9ACD7989B9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Infra", "4 - Infra", "{095DB2F3-3358-401B-A3CE-B8F5D3FCC7EF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.1 - Dados", "4.1 - Dados", "{9D3C7B47-BD38-464C-82E2-D80C9BC7F68A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BancoMaster.Infra.Dados", "BancoMaster.Infra.Dados\BancoMaster.Infra.Dados.csproj", "{F22B05ED-DDC2-4E20-8CC4-88022A708CBF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.2 - IOC", "4.2 - IOC", "{E3195092-6491-4D7E-9D38-6D3428405681}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BancoMaster.Infra.IOC", "BancoMaster.Infra.IOC\BancoMaster.Infra.IOC.csproj", "{033D21B3-4124-4D28-8CF4-F1D3AB65BDF9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BancoMaster.Aplicacao", "BancoMaster.Aplicacao\BancoMaster.Aplicacao.csproj", "{5D2EB658-6228-4B35-A37B-B9EF52E2F628}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BancoMaster.WebApi", "BancoMaster.WebApi\BancoMaster.WebApi.csproj", "{66B316C0-322B-42AA-ABD3-8DF3EAAAC826}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - Teste", "5 - Teste", "{49328B9E-CF19-431A-8DE4-F52A1BD26B90}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BancoMaster.Teste", "BancoMaster.Teste\BancoMaster.Teste.csproj", "{F74FE54C-4D96-4934-8446-77F11B9A8BC9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6A2F1B58-563C-4AF9-91CE-1D9ACD7989B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A2F1B58-563C-4AF9-91CE-1D9ACD7989B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A2F1B58-563C-4AF9-91CE-1D9ACD7989B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A2F1B58-563C-4AF9-91CE-1D9ACD7989B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F22B05ED-DDC2-4E20-8CC4-88022A708CBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F22B05ED-DDC2-4E20-8CC4-88022A708CBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F22B05ED-DDC2-4E20-8CC4-88022A708CBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F22B05ED-DDC2-4E20-8CC4-88022A708CBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{033D21B3-4124-4D28-8CF4-F1D3AB65BDF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{033D21B3-4124-4D28-8CF4-F1D3AB65BDF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{033D21B3-4124-4D28-8CF4-F1D3AB65BDF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{033D21B3-4124-4D28-8CF4-F1D3AB65BDF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D2EB658-6228-4B35-A37B-B9EF52E2F628}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D2EB658-6228-4B35-A37B-B9EF52E2F628}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D2EB658-6228-4B35-A37B-B9EF52E2F628}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D2EB658-6228-4B35-A37B-B9EF52E2F628}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66B316C0-322B-42AA-ABD3-8DF3EAAAC826}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66B316C0-322B-42AA-ABD3-8DF3EAAAC826}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66B316C0-322B-42AA-ABD3-8DF3EAAAC826}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66B316C0-322B-42AA-ABD3-8DF3EAAAC826}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F74FE54C-4D96-4934-8446-77F11B9A8BC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F74FE54C-4D96-4934-8446-77F11B9A8BC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F74FE54C-4D96-4934-8446-77F11B9A8BC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F74FE54C-4D96-4934-8446-77F11B9A8BC9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6A2F1B58-563C-4AF9-91CE-1D9ACD7989B9} = {2EF5A2DE-1F1B-4A0A-9A5D-1D6055332F2E}
+		{9D3C7B47-BD38-464C-82E2-D80C9BC7F68A} = {095DB2F3-3358-401B-A3CE-B8F5D3FCC7EF}
+		{F22B05ED-DDC2-4E20-8CC4-88022A708CBF} = {9D3C7B47-BD38-464C-82E2-D80C9BC7F68A}
+		{E3195092-6491-4D7E-9D38-6D3428405681} = {095DB2F3-3358-401B-A3CE-B8F5D3FCC7EF}
+		{033D21B3-4124-4D28-8CF4-F1D3AB65BDF9} = {E3195092-6491-4D7E-9D38-6D3428405681}
+		{5D2EB658-6228-4B35-A37B-B9EF52E2F628} = {32DDEEC2-640F-4DA7-90AB-28FF35808440}
+		{66B316C0-322B-42AA-ABD3-8DF3EAAAC826} = {79574D81-92CE-4BE9-9B1E-3129F8CB5C12}
+		{F74FE54C-4D96-4934-8446-77F11B9A8BC9} = {49328B9E-CF19-431A-8DE4-F52A1BD26B90}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {86F89FB2-DB7D-494C-8173-54491AA4D3C2}
+	EndGlobalSection
+EndGlobal

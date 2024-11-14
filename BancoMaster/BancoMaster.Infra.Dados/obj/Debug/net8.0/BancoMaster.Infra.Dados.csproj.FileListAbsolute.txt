@@ -1,0 +1,16 @@
+E:\BancoMaster\BancoMaster\BancoMaster.Infra.Dados\bin\Debug\net8.0\BancoMaster.Infra.Dados.deps.json
+E:\BancoMaster\BancoMaster\BancoMaster.Infra.Dados\bin\Debug\net8.0\BancoMaster.Infra.Dados.dll
+E:\BancoMaster\BancoMaster\BancoMaster.Infra.Dados\bin\Debug\net8.0\BancoMaster.Infra.Dados.pdb
+E:\BancoMaster\BancoMaster\BancoMaster.Infra.Dados\bin\Debug\net8.0\BancoMaster.Dominio.dll
+E:\BancoMaster\BancoMaster\BancoMaster.Infra.Dados\bin\Debug\net8.0\BancoMaster.Dominio.pdb
+E:\BancoMaster\BancoMaster\BancoMaster.Infra.Dados\obj\Debug\net8.0\BancoMaster.Infra.Dados.csproj.AssemblyReference.cache
+E:\BancoMaster\BancoMaster\BancoMaster.Infra.Dados\obj\Debug\net8.0\BancoMaster.Infra.Dados.GeneratedMSBuildEditorConfig.editorconfig
+E:\BancoMaster\BancoMaster\BancoMaster.Infra.Dados\obj\Debug\net8.0\BancoMaster.Infra.Dados.AssemblyInfoInputs.cache
+E:\BancoMaster\BancoMaster\BancoMaster.Infra.Dados\obj\Debug\net8.0\BancoMaster.Infra.Dados.AssemblyInfo.cs
+E:\BancoMaster\BancoMaster\BancoMaster.Infra.Dados\obj\Debug\net8.0\BancoMaster.Infra.Dados.csproj.CoreCompileInputs.cache
+E:\BancoMaster\BancoMaster\BancoMaster.Infra.Dados\obj\Debug\net8.0\BancoMaster.Infra.Dados.sourcelink.json
+E:\BancoMaster\BancoMaster\BancoMaster.Infra.Dados\obj\Debug\net8.0\BancoMas.BDD097BF.Up2Date
+E:\BancoMaster\BancoMaster\BancoMaster.Infra.Dados\obj\Debug\net8.0\BancoMaster.Infra.Dados.dll
+E:\BancoMaster\BancoMaster\BancoMaster.Infra.Dados\obj\Debug\net8.0\refint\BancoMaster.Infra.Dados.dll
+E:\BancoMaster\BancoMaster\BancoMaster.Infra.Dados\obj\Debug\net8.0\BancoMaster.Infra.Dados.pdb
+E:\BancoMaster\BancoMaster\BancoMaster.Infra.Dados\obj\Debug\net8.0\ref\BancoMaster.Infra.Dados.dll

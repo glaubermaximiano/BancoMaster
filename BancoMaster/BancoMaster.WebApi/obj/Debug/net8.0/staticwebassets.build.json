@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "IOAzr7FyHWevVmCzVaHwxGqsmj9Z1A1OT8+Thmy8czs=",
+  "Source": "BancoMaster.WebApi",
+  "BasePath": "_content/BancoMaster.WebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

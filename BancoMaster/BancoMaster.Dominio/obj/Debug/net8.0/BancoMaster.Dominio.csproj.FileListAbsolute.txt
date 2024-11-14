@@ -1,0 +1,12 @@
+E:\BancoMaster\BancoMaster\BancoMaster.Dominio\bin\Debug\net8.0\BancoMaster.Dominio.deps.json
+E:\BancoMaster\BancoMaster\BancoMaster.Dominio\bin\Debug\net8.0\BancoMaster.Dominio.dll
+E:\BancoMaster\BancoMaster\BancoMaster.Dominio\bin\Debug\net8.0\BancoMaster.Dominio.pdb
+E:\BancoMaster\BancoMaster\BancoMaster.Dominio\obj\Debug\net8.0\BancoMaster.Dominio.GeneratedMSBuildEditorConfig.editorconfig
+E:\BancoMaster\BancoMaster\BancoMaster.Dominio\obj\Debug\net8.0\BancoMaster.Dominio.AssemblyInfoInputs.cache
+E:\BancoMaster\BancoMaster\BancoMaster.Dominio\obj\Debug\net8.0\BancoMaster.Dominio.AssemblyInfo.cs
+E:\BancoMaster\BancoMaster\BancoMaster.Dominio\obj\Debug\net8.0\BancoMaster.Dominio.csproj.CoreCompileInputs.cache
+E:\BancoMaster\BancoMaster\BancoMaster.Dominio\obj\Debug\net8.0\BancoMaster.Dominio.sourcelink.json
+E:\BancoMaster\BancoMaster\BancoMaster.Dominio\obj\Debug\net8.0\BancoMaster.Dominio.dll
+E:\BancoMaster\BancoMaster\BancoMaster.Dominio\obj\Debug\net8.0\refint\BancoMaster.Dominio.dll
+E:\BancoMaster\BancoMaster\BancoMaster.Dominio\obj\Debug\net8.0\BancoMaster.Dominio.pdb
+E:\BancoMaster\BancoMaster\BancoMaster.Dominio\obj\Debug\net8.0\ref\BancoMaster.Dominio.dll

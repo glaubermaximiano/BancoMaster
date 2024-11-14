@@ -1,0 +1,6 @@
+E:\BancoMaster\BancoMaster\BancoMaster.Infra.Dados\obj\Debug\net7.0\BancoMaster.Infra.Dados.csproj.AssemblyReference.cache
+E:\BancoMaster\BancoMaster\BancoMaster.Infra.Dados\obj\Debug\net7.0\BancoMaster.Infra.Dados.GeneratedMSBuildEditorConfig.editorconfig
+E:\BancoMaster\BancoMaster\BancoMaster.Infra.Dados\obj\Debug\net7.0\BancoMaster.Infra.Dados.AssemblyInfoInputs.cache
+E:\BancoMaster\BancoMaster\BancoMaster.Infra.Dados\obj\Debug\net7.0\BancoMaster.Infra.Dados.AssemblyInfo.cs
+E:\BancoMaster\BancoMaster\BancoMaster.Infra.Dados\obj\Debug\net7.0\BancoMaster.Infra.Dados.csproj.CoreCompileInputs.cache
+E:\BancoMaster\BancoMaster\BancoMaster.Infra.Dados\obj\Debug\net7.0\BancoMaster.Infra.Dados.sourcelink.json
