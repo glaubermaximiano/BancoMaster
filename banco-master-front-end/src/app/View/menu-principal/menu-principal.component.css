@@ -1,0 +1,10 @@
+
+:host ::ng-deep .p-menubar { 
+    background-color: #58a4d4 !important;
+    color: #000000 !important;
+}
+
+p-button{
+    background-color: #161b2944 !important;
+  }
+

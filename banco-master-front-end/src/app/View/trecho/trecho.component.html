@@ -1,0 +1,65 @@
+<app-menu-principal></app-menu-principal>
+
+<div>
+    <p-card header="Trechos">
+      
+      <p-toolbar>
+         <div class="p-toolbar-group-start">
+            <button
+               pButton 
+               type="button"
+               title="Novo"
+               class="p-button-raised p-button-secondary p-button-text mr-2"
+               (click)="OnClickNovo()"
+               style="background-color: #58a4d4 !important;" >
+               <span class="pi pi-plus" ></span>
+            </button>
+         </div>
+     </p-toolbar>
+      <p>
+           <p-table 
+                [value]="this._lstTrechos" 
+                [loading]="_idcCarregando"
+                [showCurrentPageReport]="false"
+                [rows]="5"
+                [paginator]="true"
+                [rowHover]="true"
+                [scrollable]="true"
+                [rowsPerPageOptions]="[5, 10, 20]"
+                styleClass="p-datatable-striped p-datatable-sm"                
+                selectionMode="single" 
+                [tableStyle]="{ 'min-width': '50rem' }">
+               <ng-template pTemplate="header">  
+                
+                 <tr>
+                    <th pSortableColumn="DescOrigem">
+                        Origem
+                        <p-sortIcon field="DescOrigem" />
+                        <p-columnFilter type="text" field="DescOrigem" display="menu" class="ml-auto" />
+                     </th>
+
+                     <th pSortableColumn="DescDestino">
+                        Destino
+                        <p-sortIcon field="DescDestino" />
+                        <p-columnFilter type="text" field="DescDestino" display="menu" class="ml-auto" />
+                    </th>
+
+                    <th pSortableColumn="VlrCusto">
+                        Valor
+                        <p-sortIcon field="VlrCusto" />
+                        <p-columnFilter type="text" field="VlrCusto" display="menu" class="ml-auto" />
+                    </th>
+                  </tr>
+               </ng-template>
+               <ng-template pTemplate="body" 
+                  let-item >
+                    <tr >
+                        <td>{{ item.DescOrigem }}</td>
+                        <td >{{ item.DescDestino }}</td>
+                        <td >{{ item.VlrCusto }}</td>
+                    </tr>                        
+               </ng-template>
+           </p-table>
+       </p>
+    </p-card>    
+</div>

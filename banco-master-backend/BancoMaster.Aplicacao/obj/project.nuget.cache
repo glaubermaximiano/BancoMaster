@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "XxXQthsR/d4=",
+  "success": true,
+  "projectFilePath": "E:\\BancoMaster\\banco-master-backend\\BancoMaster.Aplicacao\\BancoMaster.Aplicacao.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\glaub\\.nuget\\packages\\nlog\\5.3.4\\nlog.5.3.4.nupkg.sha512"
+  ],
+  "logs": []
+}

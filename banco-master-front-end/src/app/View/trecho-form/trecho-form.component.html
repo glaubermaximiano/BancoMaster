@@ -1,0 +1,65 @@
+<app-menu-principal></app-menu-principal>
+
+<div class="col-12 md:col-6 lg:col-4 xl:col-4">
+    <p-card header="Novo Trecho">
+
+        <div class="col-12">
+            <div class="col-12">
+                <label>Origem</label>
+            </div>
+            <div>  
+                <input 
+                    type="text"
+                    pInputText 
+                    [(ngModel)]="this._model.DescOrigem"
+                    maxlength="2"
+                    placeholder="Origem"
+                    class="col-6" /> 
+            </div>
+        </div> 
+
+        <div class="col-12">
+            <div class="col-12">
+                <label>Destino</label>
+            </div>
+            <div>  
+                <input 
+                    type="text"
+                    pInputText 
+                    [(ngModel)]="this._model.DescDestino"
+                    maxlength="2"
+                    placeholder="Destino"
+                    class="col-6" /> 
+            </div>
+        </div> 
+
+        <div class="col-12">
+            <div class="col-12">
+                <label>Custo</label>
+            </div>
+            <div>  
+                <p-inputNumber 
+                    [(ngModel)]="this._model.VlrCusto" 
+                    inputId="currency-us" 
+                    mode="decimal" 
+                    currency="BRL" 
+                    locale="pt-BR" 
+                    class="col-6"/> 
+            </div>
+        </div> 
+
+        <ng-template pTemplate="footer">
+            <div class="flex gap-3 mt-1">
+                <button
+                    pButton 
+                    title="Salvar"
+                    severity="danger"
+                    (click)="OnClickSalvar()"
+                    type="button">                
+                    <span class="pi pi-save" ></span>
+                </button>
+            </div>
+        </ng-template>  
+
+    </p-card>
+</div>
